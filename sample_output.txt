@@ -1,0 +1,11 @@
+Situation
+Mamaearth's cleaned total revenue stands at INR 97,358.30, compared to a raw total before cleaning of INR 99,860.20. While January 2026 initially appeared to be the best month at INR 29,582.10, the true peak month is actually March 2026 at INR 20,318.90. Return rates vary significantly across payment methods, recorded at COD 44.4%, Card 14.7%, and UPI 18.9%.
+
+Complication
+The gap of INR 2,501.90 between the raw and cleaned revenue is entirely due to duplicate orders caused by a double-submit bug. Furthermore, the apparent January 2026 revenue peak was inflated by two bulk orders, and when corrected, the actual figure is INR 11,637.10. Operational vulnerability is further concentrated in our highest-risk segment: COD orders in Tier-2 cities, which suffer from a severe return rate of 54.5%.
+
+Resolution
+Regional operations and finance heads must immediately implement the following concrete actions: 
+1. Coordinate with the engineering team to deploy a checkout fix that eliminates the double-submit bug and prevents duplicate order creation. 
+2. Restrict or apply stricter verification rules for COD orders in Tier-2 cities to mitigate the high 54.5% return rate. 
+3. Adjust financial planning models to account for the corrected January 2026 revenue of INR 11,637.10 and recognize March 2026 as the true peak month at INR 20,318.90.
